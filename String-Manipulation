@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Properties</title>
+</head>
+<body style="text-align: center;background-color: #c4c4c4">
+    
+ <h2 style="color: rgb(0, 87, 128)">JavaScript String Properties</h2>
+ 
+ <fieldset style="background-color: #f1f1f1">
+ <label for="word" style="font-weight: bold;">Type some text in the textbox below</label><br><br>
+ <textarea id="word" name="word" oninput="manipulasiString2()"
+ rows="10" cols="60">
+ </textarea>
+ </fieldset>
+
+ <fieldset style="text-align: left;">
+ <p style="font-weight:bold;">Choose which series you want to the vowel change into:</p>
+
+ <div>
+    <input type="checkbox" id="fibonacci1" name="fibonacci1" onclick="manipulasiString2()">
+    <label for="fibonacci1">Fibonacci series</label>
+ </div>
+  
+ <div>
+    <input type="checkbox" id="odd1" name="odd1" onclick="manipulasiString2()">
+    <label for="odd1">Odd Series</label>
+ </div>
+
+ <div>
+    <input type="checkbox" id="even1" name="even1" onclick="manipulasiString2()">
+    <label for="even1">Even Series</label>
+ </div>
+
+ <div>
+    <input type="checkbox" id="angkaHuruf1" name="angkaHuruf1" onclick="manipulasiString2()">
+    <label for="angkaHuruf1">Number Letter Series</label>
+ </div>
+
+<br><br><br>
+<div>
+    <p style="font-weight:bold;">The results will appear soon</p>
+
+    <table>
+        <tr>
+            <td>Vowel to Fibonacci Series</td>
+            <td id="fibonacci2"></td>
+        </tr>
+        <tr>
+            <td>Vowel to Odd Serie</td>
+            <td id="odd2"></td>
+        </tr>
+        <tr>
+            <td>Vowel to Even Series</td>
+            <td id="even2"></td>
+        </tr>
+        <tr>
+            <td>Vowel to Number Letter Series</td>
+            <td id="angkaHuruf2"></td>
+        </tr>
+    </table>
+</div>
+</fieldset>
+ 
+</body>
+<script src="tugasderet.js"></script>
+</html>
